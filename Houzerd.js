@@ -31,6 +31,6 @@ function to_slug(str) {
 
 // Format tiền
 
-function format_currency(price) {
+function formatCurrency(price) {
   return price.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
 }
