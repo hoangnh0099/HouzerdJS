@@ -34,3 +34,9 @@ function to_slug(str) {
 function formatCurrency(price) {
   return price.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
 }
+
+// Viết hoa ký tự đầu tiên
+function jsUcfirst(string)
+{
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
